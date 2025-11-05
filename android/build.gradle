@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         minSdkVersion 24
-        targetSdkVersion 31 // 关键：与 compileSdkVersion 保持一致，避免版本脱节
+        targetSdkVersion 35 // 关键：与 compileSdkVersion 保持一致，避免版本脱节
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner" // 替换为 AndroidX 测试 runner
     }
 
